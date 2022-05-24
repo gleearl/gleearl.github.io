@@ -1,0 +1,35 @@
+// Navbar
+$navbar-nav-link-padding-x: 1.5rem;
+$navbar-padding-y: 1.5rem;
+
+// Color
+$body-color: #374047;
+$primary: #1D77E2 !default;
+$secondary: #606E79;
+$warning: #fefefe;
+$cyan: #E4EFFB;
+$info: #E4EFFB;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+$font-family-sans-serif:      "Inter", sans-serif !default;
+$font-family-monospace:       "Inter", monospace !default;
+
+$line-height-base:            1.75;
+$headings-line-height:        1.5;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-semibold:        600 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+
+// Badges
+$badge-font-size:                   0.625rem;
+$badge-font-weight:                 $font-weight-semibold;
+$badge-padding-y:                   7px;
+$badge-padding-x:                   12px;
+$badge-border-radius:               5px;

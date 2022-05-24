@@ -1,0 +1,19 @@
+$nav-pills-link-active-bg: #F6FAFD;
+$nav-pills-link-active-color: $body-color;
+$nav-pills-border-radius: 10px;
+
+.experience {
+  .nav-link {
+    padding-block: 1.5rem;
+    padding-inline: 1.2rem;
+    margin-block: 5px;
+    color: #374047;
+
+      &.active{
+        border-style: solid !important;
+        border-width: 1px !important;
+        border-color: $primary !important;
+      }
+  }
+}
+

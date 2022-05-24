@@ -1,0 +1,12 @@
+@include media-breakpoint-down(lg) {
+	.responsive-img {
+		width: 50% !important;
+		padding: 0 !important;
+		margin: 0 0 30px 0 !important;
+		max-height: 400px;
+	}
+}
+
+.responsive-img {
+	max-height: 400px;
+}

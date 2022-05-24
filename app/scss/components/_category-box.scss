@@ -1,0 +1,51 @@
+.category-tile {
+  width: 210px;
+
+  .category-link{
+    text-decoration: none;
+  }
+
+  .category-image {
+    background-size: 100%;
+    transition: all 1s ease;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+
+    &:hover {
+      background-size: 110%;
+    }
+
+    .category-blackdrop {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 210px;
+      width: 210px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      border: none;
+
+      &:hover {
+        background-color: rgba(75, 75, 75, 0.5);
+      }
+
+      .category-outline {
+        align-items: center;
+        border: 2px solid #fff;
+        border-radius: 3px;
+        color: #fff;
+        display: flex;
+        font-weight: 500;
+        justify-content: center;
+        margin: 20px;
+        margin-top: 20%;
+        min-height: 120px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+    }
+  }
+}

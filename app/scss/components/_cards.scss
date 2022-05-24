@@ -1,0 +1,126 @@
+.card {
+  box-shadow: 0 2px 8px 1px rgba(0,0,0,0.1);
+
+	&.services-tile {
+		min-width: 270px;
+		margin-bottom: 25px;
+
+		.title {
+			font-weight: 700;
+		}
+
+		.description {
+			font-size: 12px;
+		}
+
+		.link {
+			text-decoration: none;
+			text-transform: capitalize;
+			font-size: 14px;
+		}
+
+		.image {
+			width: 100px;
+			margin-bottom: 10px;
+		}
+
+		.icon-container {
+			.icon{
+				display: inline-block;
+				border-style: solid;
+				border-color: $gray-200;
+				border-width: 1px;
+				border-radius: 50%;
+				padding: 15px;
+				padding-block: 16px;
+				padding-inline: 13px;
+	
+				i{
+					font-size: 1.5em;
+					line-height: .04167em;
+					vertical-align: -.125em;
+					text-align: center;
+					width: 1.25em;
+				}
+			}
+				
+	
+			.check{
+				position: absolute;
+				top: 46px;
+				left: 78px;
+			}
+			
+		}
+
+		.card-body {
+			padding: 35px;
+		}
+
+		@include media-breakpoint-between(xl, xxl) {
+			.card-body {
+				padding: 20px;
+			}
+		}
+		
+		
+	}
+
+	.card-body {
+		padding: 35px;
+	}
+	
+
+}
+
+
+
+.featured {
+	margin-top: -135px;
+
+	.first {
+		margin-top: 250px;
+	}
+
+	.second {
+		margin-top: 190px;
+	}
+
+	.third {
+		margin-top: 130px;
+	}
+
+	// @include media-breakpoint-down(xl) {
+	// 	.first,
+	// 	.third {
+	// 		margin-top: -55;
+	// 	}
+	// }
+
+	@include media-breakpoint-down(xxl) {
+		.first,
+		.second,
+		.third {
+			margin-top: 0;
+		}
+	}
+}
+
+@include media-breakpoint-down(xxl) {
+	.featured{
+		margin-top: -185px;
+	}
+}
+
+
+@include media-breakpoint-down(xl) {
+	.featured{
+		margin-top: -230px;
+	}
+}
+
+@include media-breakpoint-down(lg) {
+	.featured{
+		margin-top: 0px;
+	}
+}
