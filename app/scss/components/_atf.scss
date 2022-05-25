@@ -34,6 +34,13 @@ span.badge.text-bg-info {
 	@include media-breakpoint-up(lg) { 
 		padding-inline: 50px;
 		margin-bottom: 100px;
+	}
+
+	@include media-breakpoint-down(md) { 
+		img {
+			margin-bottom: 30px;
+			width: 100%;
+		}
 	} 
 }
 
