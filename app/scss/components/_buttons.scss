@@ -1,14 +1,13 @@
-.atf {
-  .btn {
-    font-size: 1.25rem;
+button, a {
+  &.btn-outline-primary {
+    &:hover {
+      color: #fff;
+    }
+    &:active {
+      color: #fff;
+    }
+    &:focus {
+      color: #fff;
+    }
   }
-}
-
-a.link{
-  text-decoration: none;
-  color: $body-color;
-  border-bottom: solid;
-  border-color: $primary;
-  border-width: 2px;
-  padding-bottom: 5px;
 }

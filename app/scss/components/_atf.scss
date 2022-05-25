@@ -27,8 +27,19 @@ span.badge.text-bg-info {
 }
 
 .work {
+	img {
+		width: 439px;
+	}
+
 	@include media-breakpoint-up(lg) { 
 		padding-inline: 50px;
 		margin-bottom: 100px;
 	} 
+}
+
+.contact {
+	@include media-breakpoint-up(lg) { 
+		padding-inline: 100px;
+		margin-bottom: 100px;
+	}
 }
