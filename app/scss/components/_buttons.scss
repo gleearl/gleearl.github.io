@@ -11,3 +11,14 @@ button, a {
     }
   }
 }
+
+.atf {
+  a.link{
+    border-bottom: solid;
+    border-color: $primary;
+    border-width: 2px;
+    color: $body-color;
+    padding-bottom: 5px;
+    text-decoration: none;
+  }
+}
